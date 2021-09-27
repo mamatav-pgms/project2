@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList - UX</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="./image/adobe-xd-logo.png">
+</head>
+<body>
+    <div>
+    <div class="newItem">
+        <p class="heading2"><span>Trip to Paris</span></p>
+        <br>
+        <div class="back2"  onclick="location.href='./index.html';" style="cursor: pointer;">
+           <i class="fas fa-arrow-circle-left" style="color: rgb(235, 75, 75);"></i>&nbsp; Back
+        </div>
+        <br><br><br>
+           <div class="paris2">
+           <p class="heading" onclick="location.href='./index2.html';" style="cursor: pointer;" >Trip to Paris</p><hr>
+           <br>
+           <p class="strike2">Completed Task</p>
+           <p class="pentask2">
+           <label for="pending"><input type="checkbox" id="pending" name="pending" value="" style="zoom:1.5;">Pending Task</label></p>
+           <div class="fixbtn" onclick="location.href='./index.html';" style="cursor: pointer;">
+               <i class="fas fa-plus-circle" style="color: rgb(235, 75, 75)"></i>
+            </div>
+       </div>
+    </div>
+    
+        <div class="pop">
+            <form action="./index2.html">
+                <label for="field" class="heading">Add New Item</label><br><br>
+                <input type="text" id="field" name="field" class="field"><br><br>
+                <button class="add2">ADD</button>
+            </form>
+         </div>
+    </div>
+</body>
